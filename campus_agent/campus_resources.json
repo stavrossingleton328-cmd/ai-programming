@@ -2,16 +2,16 @@
   "resources": [
     {
       "name": "Library",
-      "aliases": ["lib", "library", "media center"],
-      "location": "REPLACE WITH ACTUAL BUILDING AND ROOM",
-      "hours": "REPLACE WITH ACTUAL HOURS",
-      "phone": "REPLACE WITH ACTUAL PHONE",
+      "aliases": ["lib", "library", "media center", "Hultquist Library", "HULT"],
+      "location": "Hultquist Library (HULT), Floor 1, Jamestown Campus, 525 Falconer Street, Jamestown, NY",
+      "hours": "Monday through Thursday, 8:00 AM – 6:00 PM; Friday, 8:00 AM – 4:00 PM; closed Saturday and Sunday (Fall 2026 semester hours)",
+      "phone": "716.338.1008",
       "email": "REPLACE WITH ACTUAL EMAIL",
-      "website": "REPLACE WITH ACTUAL URL",
-      "description": "Study spaces, research help, and computer access.",
-      "verified_by": "REPLACE WITH YOUR NAME",
-      "last_verified": "REPLACE WITH TODAY'S DATE IN YYYY-MM-DD FORMAT"
-    },
+      "website": "https://www.sunyjcc.edu/support/learning-commons/library",
+      "description": "The Libraries at Jamestown Community College provide students, faculty, staff, and the community with the resources to be successful in their academic pursuits, to be better informed in making important decisions in their personal lives, and to help them succeed in their professional endeavors.",
+      "verified_by": "Stavros Singleton",
+      "last_verified": "2026-10-02"
+    }, 
     {
       "name": "Tutoring Center",
       "aliases": ["tutoring", "tutor", "academic support"],
@@ -26,27 +26,27 @@
     },
     {
       "name": "Academic Advising",
-      "aliases": ["advising", "advisor", "counselor"],
-      "location": "REPLACE WITH ACTUAL BUILDING AND ROOM",
-      "hours": "REPLACE WITH ACTUAL HOURS",
-      "phone": "REPLACE WITH ACTUAL PHONE",
-      "email": "REPLACE WITH ACTUAL EMAIL",
-      "website": "REPLACE WITH ACTUAL URL",
-      "description": "Help with degree planning and course selection.",
-      "verified_by": "REPLACE WITH YOUR NAME",
-      "last_verified": "REPLACE WITH TODAY'S DATE IN YYYY-MM-DD FORMAT"
+      "aliases": ["advising", "advisor", "counselor", "JCC advising"],
+      "location": "By Appointment or virtual both by appointment",
+      "hours": "By Appointment",
+      "phone": "716.338.1065",
+      "email": "SuccessCenter@sunyjcc.edu",
+      "website": "https://www.sunyjcc.edu/support/success-center/advising/get-connected",
+      "description": "Advisors assist students with academic, career, and transfer planning, and are available to all JCC students. Success Navigators assist students in the transition to college and connect them to advisors and other resources.",
+      "verified_by": "Sameer Patel",
+      "last_verified": "2026-09-29"
     },
     {
-      "name": "Financial Aid Office",
-      "aliases": ["financial aid", "fafsa", "grants", "scholarships"],
-      "location": "REPLACE WITH ACTUAL BUILDING AND ROOM",
-      "hours": "REPLACE WITH ACTUAL HOURS",
-      "phone": "REPLACE WITH ACTUAL PHONE",
-      "email": "REPLACE WITH ACTUAL EMAIL",
-      "website": "REPLACE WITH ACTUAL URL",
-      "description": "Financial aid applications, grants, and scholarship information.",
-      "verified_by": "REPLACE WITH YOUR NAME",
-      "last_verified": "REPLACE WITH TODAY'S DATE IN YYYY-MM-DD FORMAT"
+      "name": "Financial Aid & Billing",
+      "aliases": ["Financial Aid", "Financial Aid Office", "JCC Financial Aid"],
+      "location": "COCE Floor 1, Jamestown Campus",
+      "hours": "",
+      "phone": "716.338.1009",
+      "email": "FinancialAid@sunyjcc.edu",
+      "website": "https://www.sunyjcc.edu/support/financial-aid-billing",
+      "description": "JCC Financial Aid & Billing helps students understand their financial aid, student bill, and the different options available to help pay for college. Students can also use this office for questions about FAFSA, financial aid requirements, and their financial aid status.",
+      "verified_by": "Tangie Cummings",
+      "last_verified": "2026-09-29"
     },
     {
       "name": "Career Services",
