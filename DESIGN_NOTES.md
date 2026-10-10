@@ -3,3 +3,9 @@ Why can an LLM like Gemini answer general questions but not campus-specific ques
 List at least three reasons the campus data is stored in a JSON file rather than written directly inside the Python function.
 Choose three limitations from the table above. For each one, explain one concrete way the team could improve the system in a future version.
 What could go wrong if the campus information in our JSON file is inaccurate? Who should be responsible for verifying it?
+
+1) Student services is aware that this current generation has no capability to search the web for anything and are going to just ask google to get an ai summary anyways. Worse yet, asking "chat."
+2) Because the Gemini model alone isn't searching the web for information, whereas our model has access to the .json information dump
+3) Keeping the campus data in its own json means we can easily store, update, and read the data. The token cost to search the data is less because it functions differently than a text string. And finally because json keeps the data safe. 
+4) We could implement ai-redundancy checking for the data, that passes it through different models that search the web for the information and then verify it in the JSON, and then pass it through a human for review. We could upgrade our tier to allow for the usage that deployment would bring. And the UI would be important too. The problem is where to put it because every existing app already has ai integrated, and nobody clicks the ai help bubble on websites because they're often very frustrating. 
+5) The worst that could happen is somebody calls the wrong phone number, or goes out of their way to travel to a physical location for a resource that is unavailable on the day that they go, or has moved to another location. Realistically, nothing super bad could happen, but I feel a few humans, maybe one from each "place" should review the data and verify that it's correct. 
