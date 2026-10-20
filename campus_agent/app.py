@@ -13,7 +13,7 @@ import asyncio
 import os
 
 # ADK imports
-from google.adk.runners.runner import Runner
+from google.adk.runner import Runner
 from google.adk.sessions.in_memory_session_service import InMemorySessionService
 from google.adk.artifacts.in_memory_artifact_service import InMemoryArtifactService
 from google.genai import types
